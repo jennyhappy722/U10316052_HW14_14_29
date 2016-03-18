@@ -11,7 +11,7 @@ import javafx.scene.shape.Ellipse;
 public class LineHW extends Application{
 	@Override
 	public void start(Stage primaryStage){
-	
+		Pane pane=new Pane();
 		//create line 
 		Line line=new Line(130,50,130,80);
 		Line line1=new Line(170,50,170,80);
